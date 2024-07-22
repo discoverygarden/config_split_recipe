@@ -1,0 +1,10 @@
+name: 'Config Split v2'
+description: "Installs and configures config_split v2."
+type: 'Site'
+
+install:
+  - config_split
+
+config:
+  import:
+    config_split: *
