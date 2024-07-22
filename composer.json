@@ -1,5 +1,5 @@
 {
-  "name": "discoverygarden/config_split_recipe",
+  "name": "jordandukart/config_split_recipe",
   "description": "Installs and configures config_split v2.",
   "type": "drupal-recipe",
   "require": {
