@@ -1,5 +1,5 @@
 {
-  "name": "jordandukart/config_split_recipe",
+  "name": "discoverygarden/config_split_recipe",
   "description": "Installs and configures config_split with stackable client splits.",
   "type": "drupal-recipe",
   "require": {
