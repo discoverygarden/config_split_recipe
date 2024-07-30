@@ -1,9 +1,8 @@
 {
   "name": "jordandukart/config_split_recipe",
-  "description": "Installs and configures config_split v2.",
+  "description": "Installs and configures config_split with stackable client splits.",
   "type": "drupal-recipe",
   "require": {
-    "drupal/core": "^10.2",
     "drupal/config_split": "^2.0"
   },
   "license": "GPL-2.0-or-later"

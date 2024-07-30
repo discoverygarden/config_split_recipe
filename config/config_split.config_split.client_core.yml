@@ -1,0 +1,15 @@
+langcode: en
+status: false
+dependencies: {  }
+id: client_core
+label: 'Client Core'
+description: 'Client core split.'
+weight: 125
+stackable: true
+no_patching: false
+storage: folder
+folder: ../config/splits/client_core
+theme: {  }
+complete_list: {  }
+partial_list:
+  - '*'

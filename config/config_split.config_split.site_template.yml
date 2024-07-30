@@ -1,0 +1,16 @@
+langcode: en
+status: false
+dependencies: {  }
+id: site_template
+label: 'Site Template'
+description: 'Example site config. If considering committing things to this split, such config should possibly instead go into the `client_core` split.'
+weight: 0
+stackable: true
+no_patching: false
+storage: folder
+folder: ../config/splits/sites/site_template
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - '*'

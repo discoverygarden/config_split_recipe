@@ -1,5 +1,5 @@
 name: 'Config Split v2'
-description: "Installs and configures config_split v2."
+description: "Installs and configures config_split with stackable client splits."
 type: 'Site'
 
 install:
@@ -7,4 +7,4 @@ install:
 
 config:
   import:
-    config_split: *
+    config_split: '*'
