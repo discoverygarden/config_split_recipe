@@ -12,19 +12,19 @@ matching nature of how `config_split` is being configured in the `client_core`
 split.
 
 1. Require the recipe:
-   ```bash composer require discoverygarden/config_split_recipe:^1```
+   ```composer require discoverygarden/config_split_recipe:^1```
 1. Apply the recipe:
-   ```bash php core/scripts/drupal recipe /path/to/the/recipe```
+   ```php core/scripts/drupal recipe /path/to/the/recipe```
 1. Unpack the recipe.
-   ```bash composer unpack discoverygarden/config_split_recipe```
+   ```composer unpack discoverygarden/config_split_recipe```
 1. Override the state to disable the `client_core` split.
-   ```bash drush csso client_core inactive```
+   ```drush csso client_core inactive```
 1. Export the configuration.
-   ```bash drush cex```
+   ```drush cex```
 1. Remove the state override.
-   ```bash drush csso client_core active```
+   ```drush csso client_core active```
 1. Remove the recipe.
-  ```bash composer remove discoverygarden/config_split_recipe```
+  ```composer remove discoverygarden/config_split_recipe```
 
 ## Troubleshooting/Issues
 
