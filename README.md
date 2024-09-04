@@ -12,7 +12,7 @@ matching nature of how `config_split` is being configured in the `client_core`
 split.
 
 1. Require the recipe:
-   ```composer require discoverygarden/config_split_recipe:^1```
+   ```composer require --dev discoverygarden/config_split_recipe:^1```
 1. Apply the recipe:
    ```php core/scripts/drupal recipe /path/to/the/recipe```
 1. Unpack the recipe.
@@ -23,8 +23,6 @@ split.
    ```drush cex```
 1. Remove the state override.
    ```drush csso client_core active```
-1. Remove the recipe.
-  ```composer remove discoverygarden/config_split_recipe```
 
 ## Troubleshooting/Issues
 
